@@ -1,26 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-  <title>Primer pag</title>
+  <!-- Definición del conjunto de caracteres y configuración para la escala inicial del contenido -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Título de la página -->
+  <title>Página con Secciones</title>
+  <!-- Estilos en línea para el formato del contenido -->
+  <style>
+    /* Estilos generales del cuerpo del documento */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Estilos para la primera sección con imagen y 5 columnas */
+    #seccion1 {
+      text-align: center; /* Centra el contenido de la sección horizontalmente */
+      padding: 50px; /* Agrega un espacio interno de 50px alrededor del contenido de la sección */
+      background-color: #333; /* Fondo oscuro */
+      color: white; /* Texto blanco */
+      display: flex;
+      justify-content: space-between; /* Distribuye el espacio entre los elementos (columnas de texto) */
+      align-items: center; /* Centra verticalmente los elementos */
+    }
+
+    /* Estilos para el título de la primera sección */
+    #tituloSeccion1 {
+      font-size: 24px; /* Tamaño de fuente */
+    }
+
+    /* Estilos para las columnas de la primera sección */
+    .columnaSeccion1 {
+      text-align: left;
+      font-size: 14px;
+      width: 48%; /* Ancho de cada columna al 48% del contenedor principal */
+    }
+
+    /* Estilos para la imagen en la primera sección */
+    #imagenSeccion1 {
+      width: 48%; /* Ancho de la imagen al 48% del contenedor principal */
+      height: auto; /* Altura automática para mantener la proporción */
+    }
+
+    /* Estilos para la segunda sección con dos columnas */
+    #seccion2 {
+      text-align: left; /* Centra el contenido de la sección horizontalmente */
+        padding: .10px; /* Agrega un espacio interno de 50px alrededor del contenido de la sección */
+        background-color: #333; /* Fondo oscuro */
+        color: white; /* Texto blanco */
+        display: flex;
+        justify-content: center; /* Distribuye el espacio entre los elementos (columnas de texto) */
+        align-items: center; /* Centra verticalmente los elementos */
+      }
+
+      /* Estilos para el título de la primera sección */
+      #
+      }
+
+      /* Estilos para las columnas de la primera sección */
+      .columnaSeccion1 {
+        tituloSeccion2 {
+        font-size: 30px; /* Tamaño de fuente */
+        text-align: left;
+        font-size: 10px;
+        width: 48%; /* Ancho de cada columna al 48% del contenedor principal */
+      }
+
+      /* Estilos para la imagen en la primera sección */
+      #imagenSeccion2 {
+        width: 48%; /* Ancho de la imagen al 48% del contenedor principal */
+        height: auto; /* Altura automática para mantener la proporción */
+      }
+
+      /* Estilos para la segunda sección con dos columnas */
+#seccion3 {
+  display: flex;
+  }
+
+  /* Estilo para cada columna */
+  .columna88 {
+    flex: 1; /* Hace que cada columna ocupe el mismo ancho */
+    padding: 15px;
+    border: 1px solid #ddd; /* Añade un borde para separar las columnas visualmente */
+  }
+          
+
+        }
+
+        
+
+
+
+
+
+
+  </style>
 </head>
 
 <body>
-  <section>
-    <h2>Cabo Pulmo</h2>
-    <img src="images/arrec.jpg" alt="lobo1">
+  <!-- Primera Sección -->
+  <section id="seccion1">
+    <div class="columnaSeccion1">
+      <h2 id="tituloSeccion1">Buceo</h2>
+      <p>Fotos Viajes Tienda</p>
+      <p>Instagram FB</p>
+    </div>
+    <!-- Imagen para la primera sección -->
+    <img id="imagenSeccion1" src="images/arrec.jpg" alt="Imagen 5">
   </section>
 
-  <section>
-    <h2>Nuevo recorrido</h2>
-    <img src="images/3.jpg" alt="Imagen 2">
+  <!-- Segunda Sección -->
+  <section id="seccion2">
+    <!-- Primera columna con dos párrafos y un botón -->
+    <div id="columna1Seccion2">
+       <h2 id="tituloSeccion1">Nueva fecha 5 Diciembre</h2>
+      <p>Explora Republica Dominicana</p>
+      <button>Explora ahora</button>
+    </div>
+    <!-- Segunda columna con una imagen -->
+    <div id="columna2Seccion2">
+      <img src="images/3.jpg" alt="Imagen 6">
+    </div>
   </section>
 
-  <section>
-    <h2>Sección 3</h2>
-    <img src="images/imagen3.jpg" alt="Imagen 3">
-    <section>
-      <h2>Sección 4</h2>
-      <img src="images/imagen3.jpg" alt="Imagen 4">
+  <!-- Tercera Sección -->
+  <section id="seccion3">
+    <h2>Proximas fechas</h2>
+    <!-- 4 columnas de texto en la tercera sección -->
+
+    <section id="seccion3">
+      <div class="columna88">
+        <p>Texto 1</p>
+      </div>
+      <div class="columna88">
+        <p>Texto 2</p>
+      </div>
+      <div class="columna88">
+        <p>Texto 3</p>
+      </div>
+      <div class="columna88">
+        <p>Texto 4</p>
+      </div>
     </section>
-</body>
+
+    </body>
+    </html>
+   
+
+
+
+
+
+
